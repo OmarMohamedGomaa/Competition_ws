@@ -1,6 +1,0 @@
-{
-  "package_name": "srv_pkg",
-  "non_idl_tuples": [
-    "/home/omar/amrws/src/MIA_training_competion2026/srv_pkg:srv/SendImg.srv"
-  ]
-}
