@@ -24,9 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "wasd_teleop_node = amr_khaled.controller:main",
             "scroll_detection_node = amr_khaled.scroll_detection_node:main",
             "eyes = amr_khaled.eyes_node:main"
+            "controller_node = amr_khaled.manual_drive_node:main"
         ],
     },
 )
