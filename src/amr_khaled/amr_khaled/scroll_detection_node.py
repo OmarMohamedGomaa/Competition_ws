@@ -1,13 +1,13 @@
-import json
-
+import os
+import cv2
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
-from std_msgs.msg import String, Int32
+from std_msgs.msg import Bool
 from cv_bridge import CvBridge
 from ultralytics import YOLO
-
-MODEL_PATH = '/home/robot/models/scroll_detector.pt'
+from ament_index_python.packages import get_package_share_directory
+MODEL_PATH = os.path.join(get_package_share_directory('amr_khaled'), 'real_or_fake_model.pt')
 CONFIDENCE_THRESHOLD = 0.6
 
 
@@ -21,42 +21,46 @@ class ScrollDetectionNode(Node):
         self.model = YOLO(MODEL_PATH)
         self.get_logger().info('Model loaded.')
 
-        self.seen_class_ids = set()
+        self.detected = False
 
         self.create_subscription(Image, '/mono/image', self.image_callback, 10)
+        self.autonomous_pub = self.create_publisher(Bool, '/Autonomus_mode', 10)
 
-        self.detections_pub = self.create_publisher(String, '/scroll_detections', 10)
-        self.count_pub = self.create_publisher(Int32, '/scrolls_found_count', 10)
+    def image_callback(self, msg: Image):
+        frame = self.bridge.imgmsg_to_cv2(msg.data, desired_encoding='mono8')
 
-    def image_callback(self, msg):
-        frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
+        result = self.model(frame, verbose=False)[0]
+        top1_idx = result.probs.top1
+        top1_conf = float(result.probs.top1conf)
+        predicted_label = result.names[top1_idx]
 
-        results = self.model(frame, verbose=False)
-        detections = []
+        self.detected = (predicted_label == 'real' and top1_conf >= CONFIDENCE_THRESHOLD)
 
-        for result in results:
-            for box in result.boxes:
-                confidence = float(box.conf[0])
-                if confidence < CONFIDENCE_THRESHOLD:
-                    continue
+        msg_out = Bool()
+        msg_out.data = self.detected
+        self.autonomous_pub.publish(msg_out)
 
-                class_id = int(box.cls[0])
-                x1, y1, x2, y2 = [float(v) for v in box.xyxy[0]]
+        self.get_logger().info(f'Publishing: "{msg_out.data}" (label={predicted_label}, conf={top1_conf:.2f})')
 
-                detections.append({
-                    'class_id': class_id,
-                    'confidence': confidence,
-                    'x1': x1, 'y1': y1, 'x2': x2, 'y2': y2,
-                })
-                self.seen_class_ids.add(class_id)
 
-        detections_msg = String()
-        detections_msg.data = json.dumps(detections)
-        self.detections_pub.publish(detections_msg)
+        self.show_frame(frame, predicted_label, top1_conf)
 
-        count_msg = Int32()
-        count_msg.data = len(self.seen_class_ids)
-        self.count_pub.publish(count_msg)
+    def show_frame(self, frame, predicted_label, top1_conf):
+        # Convert to BGR so overlay text/color renders correctly (frame is mono8/grayscale)
+        display_frame = cv2.cvtColor(frame, cv2.COLOR_GRAY2BGR)
+
+        color = (0, 255, 0) if self.detected else (0, 0, 255)  # green if real+confident, red otherwise
+        text = f'{predicted_label} ({top1_conf:.2f})'
+
+        cv2.putText(display_frame, text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX,
+                    0.8, color, 2, cv2.LINE_AA)
+
+        cv2.imshow('Scroll Detection - Camera Feed', display_frame)
+        cv2.waitKey(1)  # required for OpenCV to refresh the window; 1ms, non-blocking
+
+    def destroy_node(self):
+        cv2.destroyAllWindows()
+        super().destroy_node()
 
 def main():
     rclpy.init()
@@ -68,6 +72,7 @@ def main():
     finally:
         node.destroy_node()
         rclpy.shutdown()
+
 
 if __name__ == '__main__':
     main()
