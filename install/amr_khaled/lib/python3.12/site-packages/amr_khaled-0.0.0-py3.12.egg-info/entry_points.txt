@@ -1,0 +1,4 @@
+[console_scripts]
+eyes = amr_khaled.eyes_node:main
+scroll_detection_node = amr_khaled.scroll_detection_node:main
+wasd_teleop_node = amr_khaled.controller:main

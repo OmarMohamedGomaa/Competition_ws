@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-47e631f0c53db2c37c4d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "srv_pkg__py",
+					"jsonFile" : "directory-srv_pkg__py-988dbf9ec6b44816ef82.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/omar/amrws/build/srv_pkg/srv_pkg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "srv_pkg__rs",
+					"jsonFile" : "directory-srv_pkg__rs-0ec928d780a928603a3e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/omar/amrws/build/srv_pkg/srv_pkg__rs",
+					"targetIndexes" : 
+					[
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "srv_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_srv_pkg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_srv_pkg_egg-65c97f6d4e1795790603.json",
+					"name" : "ament_cmake_python_build_srv_pkg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_srv_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_srv_pkg-0b4ca4bdf642a43c7709.json",
+					"name" : "ament_cmake_python_copy_srv_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg-9f588236ad3d9178ea63.json",
+					"name" : "srv_pkg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg__cpp-bf531d0d540bde33b05c.json",
+					"name" : "srv_pkg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "srv_pkg__py::@2c2c2278466ca632aeaa",
+					"jsonFile" : "target-srv_pkg__py-7fd7b06485a858e17b48.json",
+					"name" : "srv_pkg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg__rosidl_generator_c-232c3e9139b99cf4c2d4.json",
+					"name" : "srv_pkg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg__rosidl_generator_py-075fe6cf6c8eb331e122.json",
+					"name" : "srv_pkg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg__rosidl_generator_type_description-28c4cd58464a29bf107f.json",
+					"name" : "srv_pkg__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg__rosidl_typesupport_c-32c854d66fbb978bf261.json",
+					"name" : "srv_pkg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg__rosidl_typesupport_cpp-97efabe3e885eac43c81.json",
+					"name" : "srv_pkg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg__rosidl_typesupport_fastrtps_c-e09ecd85360e318c4af2.json",
+					"name" : "srv_pkg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg__rosidl_typesupport_fastrtps_cpp-45db0c00ac91a6affe1d.json",
+					"name" : "srv_pkg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg__rosidl_typesupport_introspection_c-f0de6b6e60b066185f08.json",
+					"name" : "srv_pkg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg__rosidl_typesupport_introspection_cpp-7f59890e856f9ccf23c0.json",
+					"name" : "srv_pkg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "srv_pkg__rs::@4f4e29b7ab5b6bcde645",
+					"jsonFile" : "target-srv_pkg__rs-73776560a1a6452585ac.json",
+					"name" : "srv_pkg__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg_s__rosidl_typesupport_c-37fe833764964109d39d.json",
+					"name" : "srv_pkg_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg_s__rosidl_typesupport_fastrtps_c-3e8c6f4990ec2ba2b216.json",
+					"name" : "srv_pkg_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg_s__rosidl_typesupport_introspection_c-e9d44a5996fc54c57f69.json",
+					"name" : "srv_pkg_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "srv_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-srv_pkg_uninstall-532cec43b3eb432c09f2.json",
+					"name" : "srv_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d766b4c7e775ea6f0b64.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/omar/amrws/build/srv_pkg",
+		"source" : "/home/omar/amrws/src/MIA_training_competion2026/srv_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

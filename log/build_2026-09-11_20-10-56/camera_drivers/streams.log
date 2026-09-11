@@ -1,0 +1,38 @@
+[4.496s] Invoking command in '/home/omar/amrws/src/MIA_training_competion2026/camera_drivers': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/omar/amrws/build/camera_drivers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/amrws/install/camera_drivers/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/camera_drivers build --build-base /home/omar/amrws/build/camera_drivers/build install --record /home/omar/amrws/build/camera_drivers/install.log --install-scripts $base/lib/camera_drivers --single-version-externally-managed install_data
+[5.621s] running egg_info
+[5.719s] writing ../../../build/camera_drivers/camera_drivers.egg-info/PKG-INFO
+[5.720s] writing dependency_links to ../../../build/camera_drivers/camera_drivers.egg-info/dependency_links.txt
+[5.721s] writing entry points to ../../../build/camera_drivers/camera_drivers.egg-info/entry_points.txt
+[5.722s] writing requirements to ../../../build/camera_drivers/camera_drivers.egg-info/requires.txt
+[5.723s] writing top-level names to ../../../build/camera_drivers/camera_drivers.egg-info/top_level.txt
+[5.962s] reading manifest file '../../../build/camera_drivers/camera_drivers.egg-info/SOURCES.txt'
+[5.966s] writing manifest file '../../../build/camera_drivers/camera_drivers.egg-info/SOURCES.txt'
+[5.966s] running build
+[5.967s] running build_py
+[5.970s] copying camera_drivers/examples/mono/mono_publisher.py -> /home/omar/amrws/build/camera_drivers/build/lib/camera_drivers/examples/mono
+[5.974s] running install
+[5.994s] running install_lib
+[6.110s] copying /home/omar/amrws/build/camera_drivers/build/lib/camera_drivers/examples/mono/mono_publisher.py -> /home/omar/amrws/install/camera_drivers/lib/python3.12/site-packages/camera_drivers/examples/mono
+[6.114s] byte-compiling /home/omar/amrws/install/camera_drivers/lib/python3.12/site-packages/camera_drivers/examples/mono/mono_publisher.py to mono_publisher.cpython-312.pyc
+[6.116s] running install_data
+[6.117s] running install_egg_info
+[6.247s] removing '/home/omar/amrws/install/camera_drivers/lib/python3.12/site-packages/camera_drivers-0.0.0-py3.12.egg-info' (and everything under it)
+[6.248s] Copying ../../../build/camera_drivers/camera_drivers.egg-info to /home/omar/amrws/install/camera_drivers/lib/python3.12/site-packages/camera_drivers-0.0.0-py3.12.egg-info
+[6.251s] running install_scripts
+[6.920s] Installing index_tester script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.921s] Installing kinect_v1_subscriber script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.922s] Installing kinect_v1_subscriber2 script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.923s] Installing kinect_v2_subscriber script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.924s] Installing kinect_v2_subscriber2 script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.924s] Installing mono_client script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.925s] Installing mono_getter script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.925s] Installing mono_publisher script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.927s] Installing mono_server script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.927s] Installing mono_subscriber script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.928s] Installing stereo_client script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.928s] Installing stereo_getter script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.931s] Installing stereo_publisher script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.931s] Installing stereo_server script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.932s] Installing stereo_subscriber script to /home/omar/amrws/install/camera_drivers/lib/camera_drivers
+[6.932s] writing list of installed files to '/home/omar/amrws/build/camera_drivers/install.log'
+[7.024s] Invoked command in '/home/omar/amrws/src/MIA_training_competion2026/camera_drivers' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/omar/amrws/build/camera_drivers/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/amrws/install/camera_drivers/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/camera_drivers build --build-base /home/omar/amrws/build/camera_drivers/build install --record /home/omar/amrws/build/camera_drivers/install.log --install-scripts $base/lib/camera_drivers --single-version-externally-managed install_data

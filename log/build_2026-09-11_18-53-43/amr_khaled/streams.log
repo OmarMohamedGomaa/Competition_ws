@@ -1,0 +1,22 @@
+[2.163s] Invoking command in '/home/omar/amrws/src/amr_khaled': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/omar/amrws/build/amr_khaled/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/amrws/install/amr_khaled/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_khaled build --build-base /home/omar/amrws/build/amr_khaled/build install --record /home/omar/amrws/build/amr_khaled/install.log --install-scripts $base/lib/amr_khaled --single-version-externally-managed install_data
+[3.524s] running egg_info
+[3.765s] writing ../../build/amr_khaled/amr_khaled.egg-info/PKG-INFO
+[3.766s] writing dependency_links to ../../build/amr_khaled/amr_khaled.egg-info/dependency_links.txt
+[3.766s] writing entry points to ../../build/amr_khaled/amr_khaled.egg-info/entry_points.txt
+[3.767s] writing requirements to ../../build/amr_khaled/amr_khaled.egg-info/requires.txt
+[3.767s] writing top-level names to ../../build/amr_khaled/amr_khaled.egg-info/top_level.txt
+[4.150s] reading manifest file '../../build/amr_khaled/amr_khaled.egg-info/SOURCES.txt'
+[4.154s] writing manifest file '../../build/amr_khaled/amr_khaled.egg-info/SOURCES.txt'
+[4.155s] running build
+[4.155s] running build_py
+[4.155s] running install
+[4.180s] running install_lib
+[4.303s] running install_data
+[4.304s] running install_egg_info
+[4.408s] removing '/home/omar/amrws/install/amr_khaled/lib/python3.12/site-packages/amr_khaled-0.0.0-py3.12.egg-info' (and everything under it)
+[4.409s] Copying ../../build/amr_khaled/amr_khaled.egg-info to /home/omar/amrws/install/amr_khaled/lib/python3.12/site-packages/amr_khaled-0.0.0-py3.12.egg-info
+[4.411s] running install_scripts
+[5.031s] Installing scroll_detection_node script to /home/omar/amrws/install/amr_khaled/lib/amr_khaled
+[5.031s] Installing wasd_teleop_node script to /home/omar/amrws/install/amr_khaled/lib/amr_khaled
+[5.032s] writing list of installed files to '/home/omar/amrws/build/amr_khaled/install.log'
+[5.109s] Invoked command in '/home/omar/amrws/src/amr_khaled' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/omar/amrws/build/amr_khaled/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/amrws/install/amr_khaled/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_khaled build --build-base /home/omar/amrws/build/amr_khaled/build install --record /home/omar/amrws/build/amr_khaled/install.log --install-scripts $base/lib/amr_khaled --single-version-externally-managed install_data

@@ -1,0 +1,27 @@
+[0.000000] (-) TimerEvent: {}
+[0.000173] (amr_khaled) JobQueued: {'identifier': 'amr_khaled', 'dependencies': OrderedDict()}
+[0.000224] (camera_drivers) JobQueued: {'identifier': 'camera_drivers', 'dependencies': OrderedDict()}
+[0.000257] (competetion_bringup) JobQueued: {'identifier': 'competetion_bringup', 'dependencies': OrderedDict()}
+[0.000282] (robot_kinematics_pkg) JobQueued: {'identifier': 'robot_kinematics_pkg', 'dependencies': OrderedDict()}
+[0.000305] (srv_pkg) JobQueued: {'identifier': 'srv_pkg', 'dependencies': OrderedDict()}
+[0.001104] (amr_khaled) JobStarted: {'identifier': 'amr_khaled'}
+[0.014341] (camera_drivers) JobStarted: {'identifier': 'camera_drivers'}
+[0.024022] (competetion_bringup) JobStarted: {'identifier': 'competetion_bringup'}
+[0.035670] (robot_kinematics_pkg) JobStarted: {'identifier': 'robot_kinematics_pkg'}
+[0.099600] (-) TimerEvent: {}
+[0.200052] (-) TimerEvent: {}
+[0.300330] (-) TimerEvent: {}
+[0.400644] (-) TimerEvent: {}
+[0.501001] (-) TimerEvent: {}
+[0.601314] (-) TimerEvent: {}
+[0.701675] (-) TimerEvent: {}
+[0.802015] (-) TimerEvent: {}
+[0.902373] (-) TimerEvent: {}
+[1.002771] (-) TimerEvent: {}
+[1.103146] (-) TimerEvent: {}
+[1.148777] (competetion_bringup) JobEnded: {'identifier': 'competetion_bringup', 'rc': 0}
+[1.151096] (camera_drivers) JobEnded: {'identifier': 'camera_drivers', 'rc': 'SIGINT'}
+[1.151775] (robot_kinematics_pkg) JobEnded: {'identifier': 'robot_kinematics_pkg', 'rc': 'SIGINT'}
+[1.153203] (amr_khaled) JobEnded: {'identifier': 'amr_khaled', 'rc': 'SIGINT'}
+[1.163697] (srv_pkg) JobSkipped: {'identifier': 'srv_pkg'}
+[1.163749] (-) EventReactorShutdown: {}

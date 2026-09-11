@@ -1,0 +1,163 @@
+[0.268s] Invoking command in '/home/omar/amrws/build/srv_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/amrws/install/amr_khaled:/home/omar/amrws/install/robot_kinematics_pkg:/home/omar/amrws/install/competetion_bringup:/home/omar/amrws/install/camera_drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar/amrws/build/srv_pkg -- -j4 -l4
+[0.541s] [  2%] Built target srv_pkg__rs
+[0.541s] [  5%] Built target srv_pkg__rosidl_generator_type_description
+[0.599s] [  5%] Built target ament_cmake_python_copy_srv_pkg
+[0.604s] [  8%] Built target srv_pkg__cpp
+[0.626s] [ 22%] Built target srv_pkg__rosidl_generator_c
+[0.685s] [ 31%] Built target srv_pkg__rosidl_typesupport_c
+[0.685s] [ 40%] Built target srv_pkg__rosidl_typesupport_introspection_c
+[0.689s] [ 48%] Built target srv_pkg__rosidl_typesupport_fastrtps_c
+[0.747s] [ 57%] Built target srv_pkg__rosidl_typesupport_introspection_cpp
+[0.750s] [ 65%] Built target srv_pkg__rosidl_typesupport_cpp
+[0.753s] [ 74%] Built target srv_pkg__rosidl_typesupport_fastrtps_cpp
+[0.789s] [ 74%] Built target srv_pkg
+[0.828s] [ 77%] Built target srv_pkg__py
+[0.867s] [ 82%] Built target srv_pkg__rosidl_generator_py
+[0.930s] [ 88%] Built target srv_pkg_s__rosidl_typesupport_fastrtps_c
+[0.931s] [ 94%] Built target srv_pkg_s__rosidl_typesupport_c
+[0.936s] [100%] Built target srv_pkg_s__rosidl_typesupport_introspection_c
+[1.238s] running egg_info
+[1.298s] writing srv_pkg.egg-info/PKG-INFO
+[1.298s] writing dependency_links to srv_pkg.egg-info/dependency_links.txt
+[1.298s] writing top-level names to srv_pkg.egg-info/top_level.txt
+[1.475s] reading manifest file 'srv_pkg.egg-info/SOURCES.txt'
+[1.476s] writing manifest file 'srv_pkg.egg-info/SOURCES.txt'
+[1.522s] [100%] Built target ament_cmake_python_build_srv_pkg_egg
+[1.541s] Invoked command in '/home/omar/amrws/build/srv_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/amrws/install/amr_khaled:/home/omar/amrws/install/robot_kinematics_pkg:/home/omar/amrws/install/competetion_bringup:/home/omar/amrws/install/camera_drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/omar/amrws/build/srv_pkg -- -j4 -l4
+[1.580s] Invoking command in '/home/omar/amrws/build/srv_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/amrws/install/amr_khaled:/home/omar/amrws/install/robot_kinematics_pkg:/home/omar/amrws/install/competetion_bringup:/home/omar/amrws/install/camera_drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar/amrws/build/srv_pkg
+[1.594s] -- Install configuration: ""
+[1.595s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/ament_index/resource_index/rosidl_interfaces/srv_pkg
+[1.595s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/srv/SendImg.json
+[1.595s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg
+[1.595s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/msg
+[1.596s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/msg/rosidl_generator_c__visibility_control.h
+[1.596s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv
+[1.603s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/send_img.h
+[1.603s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail
+[1.603s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__functions.c
+[1.604s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__functions.h
+[1.604s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__type_support.h
+[1.604s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__description.c
+[1.604s] -- Installing: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__type_support.c
+[1.604s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__struct.h
+[1.605s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/environment/library_path.sh
+[1.605s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/environment/library_path.dsv
+[1.605s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/libsrv_pkg__rosidl_generator_c.so
+[1.606s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg
+[1.606s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/msg
+[1.606s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.607s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv
+[1.607s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail
+[1.607s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__rosidl_typesupport_fastrtps_c.h
+[1.607s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_fastrtps_c.so
+[1.607s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg
+[1.616s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/msg
+[1.617s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.617s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv
+[1.617s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail
+[1.617s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__rosidl_typesupport_introspection_c.h
+[1.618s] -- Installing: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__type_support.c
+[1.618s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_introspection_c.so
+[1.619s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_c.so
+[1.619s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg
+[1.620s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/msg
+[1.620s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.620s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv
+[1.621s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/send_img.hpp
+[1.621s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail
+[1.621s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__type_support.hpp
+[1.621s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__builder.hpp
+[1.621s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__traits.hpp
+[1.621s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__struct.hpp
+[1.621s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg
+[1.621s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/msg
+[1.622s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.622s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv
+[1.622s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail
+[1.622s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/dds_fastrtps
+[1.622s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__rosidl_typesupport_fastrtps_cpp.hpp
+[1.631s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_fastrtps_cpp.so
+[1.631s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg
+[1.632s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv
+[1.632s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail
+[1.632s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__type_support.cpp
+[1.632s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/include/srv_pkg/srv_pkg/srv/detail/send_img__rosidl_typesupport_introspection_cpp.hpp
+[1.650s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_introspection_cpp.so
+[1.676s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/libsrv_pkg__rosidl_typesupport_cpp.so
+[1.678s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/environment/pythonpath.sh
+[1.678s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/environment/pythonpath.dsv
+[1.679s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg-0.0.0-py3.12.egg-info
+[1.680s] -- Installing: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.680s] -- Installing: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg-0.0.0-py3.12.egg-info/PKG-INFO
+[1.681s] -- Installing: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg-0.0.0-py3.12.egg-info/top_level.txt
+[1.682s] -- Installing: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.683s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg
+[1.684s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_fastrtps_c.so
+[1.684s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_introspection_c.so
+[1.685s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/__init__.py
+[1.685s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_c.so
+[1.686s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_introspection_c.c
+[1.687s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.688s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/srv
+[1.689s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/srv/_send_img_s.c
+[1.690s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/srv/__init__.py
+[1.690s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/srv/_send_img.py
+[1.691s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/_srv_pkg_s.ep.rosidl_typesupport_c.c
+[1.904s] Listing '/home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg'...
+[1.905s] Listing '/home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/srv'...
+[1.925s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_fastrtps_c.so
+[1.926s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_introspection_c.so
+[1.928s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/python3.12/site-packages/srv_pkg/srv_pkg_s__rosidl_typesupport_c.so
+[1.929s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/lib/libsrv_pkg__rosidl_generator_py.so
+[1.930s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/ament_index/resource_index/rust_packages/srv_pkg
+[1.931s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/rust
+[1.932s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/rust/Cargo.toml
+[1.932s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/rust/src
+[1.933s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/rust/src/lib.rs
+[1.933s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/rust/src/srv.rs
+[1.934s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/rust/src/srv
+[1.934s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/rust/src/srv/rmw.rs
+[1.935s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/rust/build.rs
+[1.935s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/srv/SendImg.idl
+[1.935s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/srv/SendImg.srv
+[1.936s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/ament_index/resource_index/package_run_dependencies/srv_pkg
+[1.936s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/ament_index/resource_index/parent_prefix_path/srv_pkg
+[1.936s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/environment/ament_prefix_path.sh
+[1.937s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/environment/ament_prefix_path.dsv
+[1.938s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/environment/path.sh
+[1.938s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/environment/path.dsv
+[1.939s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/local_setup.bash
+[1.939s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/local_setup.sh
+[1.940s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/local_setup.zsh
+[1.940s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/local_setup.dsv
+[1.941s] -- Installing: /home/omar/amrws/install/srv_pkg/share/srv_pkg/package.dsv
+[1.941s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/ament_index/resource_index/packages/srv_pkg
+[1.942s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_generator_cExport.cmake
+[1.942s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_generator_cExport-noconfig.cmake
+[1.943s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_typesupport_fastrtps_cExport.cmake
+[1.943s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.944s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_introspection_cExport.cmake
+[1.945s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.945s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_cExport.cmake
+[1.946s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_cExport-noconfig.cmake
+[1.946s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_generator_cppExport.cmake
+[1.946s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.947s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.947s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_introspection_cppExport.cmake
+[1.947s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.947s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_cppExport.cmake
+[1.948s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/srv_pkg__rosidl_typesupport_cppExport-noconfig.cmake
+[1.948s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_generator_pyExport.cmake
+[1.948s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/export_srv_pkg__rosidl_generator_pyExport-noconfig.cmake
+[1.948s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/rosidl_cmake-extras.cmake
+[1.949s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.949s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.949s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/ament_cmake_export_libraries-extras.cmake
+[1.949s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/ament_cmake_export_targets-extras.cmake
+[1.950s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.950s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.950s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/rosidl_cmake_aggregate_target-extras.cmake
+[1.950s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/srv_pkgConfig.cmake
+[1.951s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/cmake/srv_pkgConfig-version.cmake
+[1.951s] -- Up-to-date: /home/omar/amrws/install/srv_pkg/share/srv_pkg/package.xml
+[1.955s] Invoked command in '/home/omar/amrws/build/srv_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omar/amrws/install/amr_khaled:/home/omar/amrws/install/robot_kinematics_pkg:/home/omar/amrws/install/competetion_bringup:/home/omar/amrws/install/camera_drivers:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/omar/amrws/build/srv_pkg

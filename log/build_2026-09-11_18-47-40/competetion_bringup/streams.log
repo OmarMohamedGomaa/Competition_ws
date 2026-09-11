@@ -1,0 +1,19 @@
+[4.465s] Invoking command in '/home/omar/amrws/src/MIA_training_competion2026/competetion_bringup': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/omar/amrws/build/competetion_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/amrws/install/competetion_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/competetion_bringup build --build-base /home/omar/amrws/build/competetion_bringup/build install --record /home/omar/amrws/build/competetion_bringup/install.log --install-scripts $base/lib/competetion_bringup --single-version-externally-managed install_data
+[6.057s] running egg_info
+[6.152s] writing ../../../build/competetion_bringup/competetion_bringup.egg-info/PKG-INFO
+[6.152s] writing dependency_links to ../../../build/competetion_bringup/competetion_bringup.egg-info/dependency_links.txt
+[6.157s] writing requirements to ../../../build/competetion_bringup/competetion_bringup.egg-info/requires.txt
+[6.158s] writing top-level names to ../../../build/competetion_bringup/competetion_bringup.egg-info/top_level.txt
+[6.363s] reading manifest file '../../../build/competetion_bringup/competetion_bringup.egg-info/SOURCES.txt'
+[6.365s] writing manifest file '../../../build/competetion_bringup/competetion_bringup.egg-info/SOURCES.txt'
+[6.365s] running build
+[6.365s] running build_py
+[6.366s] running install
+[6.391s] running install_lib
+[6.503s] running install_data
+[6.506s] running install_egg_info
+[6.614s] removing '/home/omar/amrws/install/competetion_bringup/lib/python3.12/site-packages/competetion_bringup-0.0.0-py3.12.egg-info' (and everything under it)
+[6.614s] Copying ../../../build/competetion_bringup/competetion_bringup.egg-info to /home/omar/amrws/install/competetion_bringup/lib/python3.12/site-packages/competetion_bringup-0.0.0-py3.12.egg-info
+[6.616s] running install_scripts
+[6.989s] writing list of installed files to '/home/omar/amrws/build/competetion_bringup/install.log'
+[7.052s] Invoked command in '/home/omar/amrws/src/MIA_training_competion2026/competetion_bringup' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/omar/amrws/build/competetion_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/omar/amrws/install/competetion_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/competetion_bringup build --build-base /home/omar/amrws/build/competetion_bringup/build install --record /home/omar/amrws/build/competetion_bringup/install.log --install-scripts $base/lib/competetion_bringup --single-version-externally-managed install_data
