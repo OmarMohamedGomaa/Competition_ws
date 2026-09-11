@@ -24,7 +24,7 @@ class ScrollDetectionNode(Node):
         self.detected = False
 
         self.create_subscription(Image, '/mono/image', self.image_callback, 10)
-        self.autonomous_pub = self.create_publisher(Bool, '/Autonomus_mode', 10)
+
 
     def image_callback(self, msg: Image):
         frame = self.bridge.imgmsg_to_cv2(msg.data, desired_encoding='mono8')
@@ -34,13 +34,12 @@ class ScrollDetectionNode(Node):
         top1_conf = float(result.probs.top1conf)
         predicted_label = result.names[top1_idx]
 
-        self.detected = (predicted_label == 'real' and top1_conf >= CONFIDENCE_THRESHOLD)
+        self.detected = (predicted_label == 'real')
+        if top1_conf < CONFIDENCE_THRESHOLD:
+            predicted_label = "none"
+  
 
-        msg_out = Bool()
-        msg_out.data = self.detected
-        self.autonomous_pub.publish(msg_out)
-
-        self.get_logger().info(f'Publishing: "{msg_out.data}" (label={predicted_label}, conf={top1_conf:.2f})')
+        self.get_logger().info(f'(label={predicted_label}, conf={top1_conf:.2f})')
 
 
         self.show_frame(frame, predicted_label, top1_conf)
