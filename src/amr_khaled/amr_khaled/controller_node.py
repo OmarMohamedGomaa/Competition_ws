@@ -53,7 +53,7 @@ class DriveNode(Node):
         super().__init__('controller_node')
 
         self.bridge = CvBridge()
-        self.model = YOLO(MODEL_PATH)
+        
 
         self.pub = self.create_publisher(Twist, '/cmd_vel', 10)
         self.sub = self.create_subscription(Image, '/mono/image', self.image_callback, 10)

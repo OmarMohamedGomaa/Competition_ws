@@ -26,8 +26,10 @@ setup(
     entry_points={
         'console_scripts': [
             "scroll_detection_node = amr_khaled.scroll_detection_node:main",
-            "controller_node = amr_khaled.controller_node:main"
-
+            "controller_node = amr_khaled.controller_node:main",
+            "eyes = amr_khaled.eyes_node:main",
+            "autonomous_drive_node = amr_khaled.autonomous_drive_node:main",
+            "manual_drive_node = amr_khaled.manual_drive_node:main",
         ],
     },
 )
