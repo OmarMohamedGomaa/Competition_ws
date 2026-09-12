@@ -29,22 +29,15 @@ class ScrollDetectionNode(Node):
 
     def image_callback(self, msg: Image):
         frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding='bgr8')
-        color = self.classify_dominant_color(frame)
-        # frame = cv2.
-        # result = self.model(frame, verbose=False)[0]
-        # top1_idx = result.probs.top1
-        # top1_conf = float(result.probs.top1conf)
+        color = self.classify_dominant_color(frame)        
         predicted_label = "real" if color == "blue" else "fake"
-
         self.detected = (predicted_label == 'real')
+        
         if color == "neither":
             predicted_label = "none"
   
-
         self.get_logger().info(f'(label={predicted_label}')
-
-
-        self.show_frame(frame, predicted_label, 0.67)
+        self.show_frame(frame, predicted_label)
 
 
     def classify_dominant_color(self,bgr_image, min_fraction=0.20):
@@ -70,8 +63,10 @@ class ScrollDetectionNode(Node):
         if red_fraction < min_fraction and blue_fraction < min_fraction:
             return 'neither'
         return 'red' if red_fraction >= blue_fraction else 'blue'
-    def show_frame(self, frame, predicted_label, top1_conf):
-        # Convert to BGR so overlay text/color renders correctly (frame is mono8/grayscale)
+    
+    
+    def show_frame(self, frame, predicted_label ):
+       
         display_frame = frame
 
         color = (255 , 255, 255)
@@ -85,7 +80,7 @@ class ScrollDetectionNode(Node):
                     0.8, color, 2, cv2.LINE_AA)
 
         cv2.imshow('Scroll Detection - Camera Feed', display_frame)
-        cv2.waitKey(1)  # required for OpenCV to refresh the window; 1ms, non-blocking
+        cv2.waitKey(1)  
 
     def destroy_node(self):
         cv2.destroyAllWindows()
