@@ -8,7 +8,7 @@ from cv_bridge import CvBridge
 from ultralytics import YOLO
 from ament_index_python.packages import get_package_share_directory
 MODEL_PATH = os.path.join(get_package_share_directory('amr_khaled'), 'real_or_fake_model.pt')
-CONFIDENCE_THRESHOLD = 0.6
+CONFIDENCE_THRESHOLD = 0.8
 
 
 class ScrollDetectionNode(Node):
@@ -27,7 +27,7 @@ class ScrollDetectionNode(Node):
 
 
     def image_callback(self, msg: Image):
-        frame = self.bridge.imgmsg_to_cv2(msg.data, desired_encoding='mono8')
+        frame = self.bridge.imgmsg_to_cv2(msg, desired_encoding='mono8')
 
         result = self.model(frame, verbose=False)[0]
         top1_idx = result.probs.top1
@@ -48,7 +48,11 @@ class ScrollDetectionNode(Node):
         # Convert to BGR so overlay text/color renders correctly (frame is mono8/grayscale)
         display_frame = cv2.cvtColor(frame, cv2.COLOR_GRAY2BGR)
 
-        color = (0, 255, 0) if self.detected else (0, 0, 255)  # green if real+confident, red otherwise
+        color = (255 , 255, 255)
+        if predicted_label == "real":
+            color = (0,255,0)
+        elif predicted_label == "fake":
+            color = (0,0,255)  
         text = f'{predicted_label} ({top1_conf:.2f})'
 
         cv2.putText(display_frame, text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX,
